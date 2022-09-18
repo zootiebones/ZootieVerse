@@ -24,12 +24,12 @@ export default function Home() {
         <div className={styles.grid}>
           <a href="https://ZootieVerse.com" className={styles.card}>
             <h2>ZootiePass &rarr;</h2>
-            <p>Find in-depth information about ZootieVerse features and Roadmap.</p>
+            <p>Find in-depth information about the ZootiePass features and exclusive rewards for ZootiePass holders.</p>
           </a>
 
           <a href="https://ZootieVerse.com" className={styles.card}>
             <h2>ZootieGhost &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+            <p>Learn about ZootieGhosts in the ZootieVerse!</p>
           </a>
 
           <a
@@ -37,7 +37,7 @@ export default function Home() {
             className={styles.card}
           >
             <h2>ZootieVerse &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <p>ZootieVerse is built to operate on Desktop, Tablet, and Mobile. Coming Soon!</p>
           </a>
 
           <a
@@ -46,7 +46,7 @@ export default function Home() {
           >
             <h2>Roadmap &rarr;</h2>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              Learn More about the future of ZootieVerse and our upcoming Drops.
             </p>
           </a>
         </div>
@@ -58,7 +58,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
+          Powered by B0N3SY.eth and ZootieKing.eth{' '}
           <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
