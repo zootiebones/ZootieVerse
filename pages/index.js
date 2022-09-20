@@ -10,6 +10,15 @@ export default function Home() {
         <meta name="description" content="Official ZootieVerse" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FRCVHLT7WY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FRCVHLT7WY');
+</script>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
