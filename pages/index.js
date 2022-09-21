@@ -7,7 +7,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>ZootieVerse</title>
-        <meta name="description" content="Official ZootieVerse" />
+        <meta name="description" content="The ZootieVerse" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -16,40 +16,7 @@ export default function Home() {
           Welcome to <a href="https://zootieverse.com">ZootieVerse!</a>
         </h1>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://ZootieVerse.com" className={styles.card}>
-            <h2>ZootiePass &rarr;</h2>
-            <p>Find in-depth information about the ZootiePass features and exclusive rewards for ZootiePass holders.</p>
-          </a>
-
-          <a href="https://ZootieVerse.com" className={styles.card}>
-            <h2>ZootieGhost &rarr;</h2>
-            <p>Learn about ZootieGhosts in the ZootieVerse!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>ZootieVerse &rarr;</h2>
-            <p>ZootieVerse is built to operate on Desktop, Tablet, and Mobile. Coming Soon!</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h2>Roadmap &rarr;</h2>
-            <p>
-              Learn More about the future of ZootieVerse and our upcoming Drops.
-            </p>
-          </a>
-        </div>
+      
       </main>
 
       <footer className={styles.footer}>
